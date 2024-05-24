@@ -5,14 +5,25 @@ body {
 
 
 .movie-app > .row {
+	display: flex;
 	overflow-x: auto;
 	flex-wrap: nowrap;
+	padding: 10px;
 }
 
 .image-container {
 	position: relative;
 	transition: transform 0.2s;
+	margin: 10px;
+	flex: 0 0 auto;
+	width: 300px;
 
+}
+
+.image-container img {
+	width: 100%;
+	height: auto;
+	display: block;
 }
 
 .image-container:hover {
@@ -28,10 +39,14 @@ body {
 	position: absolute;
 	background: rgba(0, 0, 0, 0.8);
 	width: 100%;
-	transition: 0.5s ease;
-	opacity: 0;
 	bottom: 0;
+	left: 0;
+	transition: opacity 0.5s ease;
+	opacity: 0;
+	height: auto;
 	font-size: 20px;
-	padding: 20px;
+	padding: 10px;
 	text-align: center;
+	box-sizing: border-box;
 }
+	
