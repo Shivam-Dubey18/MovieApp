@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# React Movie App 🎬
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Movie App, a React-based application that allows users to search for movies, view details, and manage a list of favorite movies. This project uses the OMDB API to fetch movie data and leverages modern web technologies for a seamless user experience.
 
-## Available Scripts
+## Features ✨
 
-In the project directory, you can run:
+- **Search Movies**: Find movies by title using the OMDB API.
+- **View Details**: See the poster for each movie.
+- **Manage Favorites**: Add or remove movies from your favorites list.
+- **Responsive Design**: Optimized for different screen sizes using Bootstrap.
+- **Netflix Style Scroll**: A "Netflix style" horizontal scroll effect to navigate through movies easily.
+- **Local Storage for Favorites**: Save our favorites to local storage so they appear when the app refreshes.
 
-### `npm start`
+## Demo 🎥
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[Live Demo](https://movies7966.netlify.app/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![MovieApp](https://github.com/Shivam-Dubey18/MovieApp/assets/152854367/3328f88c-94ae-4a92-8771-c51558dd4552)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started 🚀
 
-### `npm run build`
+Follow these instructions to set up the project locally.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js
+- npm (Node Package Manager)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+1. Clone the repository
+   `git clone https://github.com/Shivam-Dubey18/MovieApp.git`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Navigate to the project directory
+   `cd MovieApp`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Install dependencies
+   `npm install`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Start the development server
+   `npm start`
+   
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Usage 💻
+- **Search**: Enter a movie name in the search box to find movies.
+- **Favorites**: Click the "Add to Favorites" button to add a movie to your favorites list, and click "Remove from Favorites" to remove it.
+- **Responsive**: Enjoy a responsive design that works well on both desktop and mobile devices.
+- **Horizontal Scroll**: Navigate through movies using a smooth horizontal scroll effect.
+- **Persistent Favorites**: Your favorite movies are saved in local storage and will be available even after refreshing the page.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Built With 🛠️
+- **React** - JavaScript library for building user interfaces
+- **Bootstrap** - CSS framework for responsive design
+- **OMDB API** - API for movie data
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
